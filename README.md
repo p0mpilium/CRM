@@ -8,20 +8,29 @@
   - Начало работы
     Для начала работы надо установить виртуальное пространство и несколько библиотек:
     
-
-    ```py -m venv myenv```
+    ```
+    py -m venv myenv
+    ```
     После чего надо будет активировать наше виртуальное пространство:
-    ```myenv\Scripts\activate```
+    ```
+    myenv\Scripts\activate
+    ```
     
     Установка зависимостей
     Используй pip для установки зависимостей из requirements.txt:
     
-    ```pip install -r requirements.txt```
-    Теперь вы готовы начать работу с CRM!
+    ```
+    pip install -r requirements.txt
+    ```
+    Теперь ты готов начать работу с CRM!
 
     Для запуска нашего сайта, нужно будет запустить его через Бэк таким образом:
-    ```py manage.py runserver```
+    ```
+    py manage.py runserver
+    ```
 
     Отдельно можно запустить и фронт (пока с ним взаимодействовать нельзя)
-    ```cd myangularapp
-    ng serve```
+    ```
+    cd myangularapp
+    ng serve
+    ```
